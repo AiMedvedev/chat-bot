@@ -1,14 +1,14 @@
 <template>
-  <MainScreen />
+  <BotComponent />
 </template>
 
 <script>
-import MainScreen from './components/MainScreen.vue';
+import BotComponent from './components/BotComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    MainScreen
+    BotComponent
   }
 }
 </script>
