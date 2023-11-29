@@ -1,24 +1,23 @@
 # chat-bot
 
-## Project setup
-```
-npm install
-```
+Чат-виджет, где пользователь может писать сообщение боту (или выбрать один из вариантов) и получать от него ответы. 
+Бот не обладает интеллектом и его ответы прописаны в коде.
 
-### Compiles and hot-reloads for development
+## Как запустить
+
+Посмотреть на бота можно пройдя епо ссылке - https://chat-bot-one-gules.vercel.app/
+
+В редакторе кода в командной строке ввести 
+```
+npm i
+```
+### Для разработки
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
+### Для компиляции
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Для изменения конфигурации
+[Configuration Reference](https://cli.vuejs.org/config/).
