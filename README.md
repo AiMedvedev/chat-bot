@@ -15,9 +15,17 @@ npm i
 ```
 npm run serve
 ```
-### Для компиляции
+### Для билда
 ```
 npm run build
 ```
 ### Для изменения конфигурации
 [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Как встроить виджет в свой проект
+- Встраивание компонента:
+  Для встраивания виджета на другой проект, скопируйте компонент <MainScreen> в папку проекта, импортируйте его и вставьте в верстку.
+  
+- Встраивание с использованием <iframe>:
+  <iframe src="https://chat-bot-one-gules.vercel.app/" width="600" height="800" frameborder="0"></iframe>
+
