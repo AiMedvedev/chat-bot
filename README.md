@@ -23,8 +23,11 @@ npm run build
 [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Как встроить виджет в свой проект
-- Встраивание компонента:
+- Встраивание компонента vue:
   Для встраивания виджета на другой проект, скопируйте компонент BotComponent.vue в папку проекта, импортируйте его и вставьте в верстку.
+
+- Встраивание через импорт файлов html, css, js:
+  Разбить компонент BotComponent.vue на отдельные файлы html, css, js, импортировать их и использовать в своем проекте.
   
 - Встраивание с использованием <iframe>:
   <iframe src="https://chat-bot-one-gules.vercel.app/" width="600" height="800" frameborder="0"></iframe>
